@@ -7,6 +7,8 @@ function setup() {
   capture = createCapture(VIDEO);
   capture.size(640, 480);
   capture.hide();
+
+  console.log(capture);
 }
 
 function draw() {
